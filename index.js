@@ -25,6 +25,7 @@ module.exports = function () {
 			data = imba.compile(file.contents.toString());
 		} catch (err) {
 			this.emit('error', new PluginError(NAME, err, {fileName: file.path}));
+			return;
 		}
 
 		// make .js file
