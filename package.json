@@ -1,6 +1,6 @@
 {
   "name": "gulp-imba",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp wrapper for the Imba compiler.",
   "license": "MIT",
   "repository": "lukeed/gulp-imba",
